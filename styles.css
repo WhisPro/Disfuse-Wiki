@@ -59,37 +59,12 @@ main.container {
     padding: 2em;
 }
 
-.center-content {
-    text-align: center;
-    margin-bottom: 2em;
-}
-
-.button-group {
-    margin-top: 1em;
-}
-
-.button {
-    display: inline-block;
-    padding: 0.5em 1em;
-    margin: 0.5em;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
+.profile-picture {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 1em;
     border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
-    border: none;
-    outline: none;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.button:hover {
-    background-color: #555;
-    transform: scale(1.05);
-}
-
-.button:active {
-    transform: scale(0.95);
 }
 
 article h1 {
@@ -97,9 +72,8 @@ article h1 {
     margin-bottom: 1em;
 }
 
-article h2 {
-    font-size: 1.5em;
-    margin-top: 1em;
+article p {
+    margin-bottom: 1em;
 }
 
 footer {
