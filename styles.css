@@ -49,4 +49,72 @@ header nav ul {
 }
 
 header nav ul li {
-    margin-lef
+    margin-left: 1em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+main.container {
+    max-width: 1100px;
+    margin: 2em auto;
+    padding: 0 1em;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 2em;
+}
+
+.center-content {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.center-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1em;
+}
+
+.button-group {
+    margin-top: 1em;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    background-color: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
+
+article h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+article h2 {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+footer {
+    background-color: #ffffff;
+    border-top: 1px solid #dcdcdc;
+    padding: 1em 0;
+}
+
+footer .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1em;
+}
